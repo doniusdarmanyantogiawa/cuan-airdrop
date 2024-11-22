@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, html, body{
+  font-family: "Quicksand", serif;
+  scroll-behavior: smooth;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  position: relative;
+
+  /* white */
+  /* background-color: #DCDCDC; */
+  background-color: #F5F5F0;
+  /* background-color: #D3D3D3; */
+
+  /* black */
+  /* background: #001F3F; */
+  /* background: #555D50; */
+  /* background: #1E1E1E; */
+  /* background: #2F4F4F; */
+  /* background: #2C3539; */
+
+  /* animation: gradient-animation 5s ease infinite;
+  background: linear-gradient(270deg, #ffffff, #ffcc00, #ff6699, #66ccff); */
+  background-size: 400% 400%;
+}
+
+@keyframes gradient-animation {
+  0% {
+      background-position: 0% 20%;
+  }
+  25% {
+      background-position: 50% 20%;
+  }
+  50% {
+      background-position: 75% 50%;
+  }
+  100% {
+      background-position: 100% 75%;
+  }
+}
+
